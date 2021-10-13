@@ -1,0 +1,357 @@
+*{
+  text-decoration: none !important;
+  
+}
+
+.contenedor {
+  margin-top: 70px;
+}
+
+.home-icon {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(./Fotos/paven.png);
+  font-size: 1.3rem;
+  
+}
+
+.title-principal,
+.title-principal-nav {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.title-secondary {
+  font-family: "Bona Nova", serif;
+}
+
+.title-secondary-nav {
+  font-family: "Bona Nova", serif;
+}
+
+.qtpv {
+  font-size: 1.7rem;
+  text-decoration: none !important;
+}
+
+.img-slider-size {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-video-size {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-color-black {
+  color: #bd3d3d;
+}
+
+.margin-title {
+  margin-top: 60px;
+  color: red;
+}
+
+.text-destinos {  
+  color: black;
+}
+
+.text-background {
+  background: linear-gradient(to bottom, #0179c9, #343a40);
+  color: #ffffff;
+}
+
+.text-azulito {
+  color: blue;
+} 
+
+.text-verdesito {
+  color: #228422;
+}
+
+.height-videos {
+  height: 600px;
+}
+
+.videos-home {
+  height: 300px;
+}
+
+.espaciados {
+  margin-top: 100px;
+}
+
+.shadow-title {
+  text-shadow: -7px -2px 3px #333333;
+}
+
+.height-destinos {
+  height: 100px;
+}
+
+.contacto {
+  background: linear-gradient(to bottom, #01c993, #343a40);
+  color: #ffffff;
+}
+
+.img-logo {
+  max-width: 400px;
+}
+
+.map-logo {
+  max-width: 600px;
+  max-height: 200px;
+}
+
+.autor {
+  font-size: 22px;
+}
+
+.bg-table-title {
+  background-color: #4b6587;
+  color: #f0e5cf;
+}
+
+.bg-table-one {
+  background-color: #f0e5cf;
+}
+
+.bg-table-two {
+  background-color: #f7f6f2;
+}
+
+.container-tabla {
+  max-width: 500px;
+}
+
+.border-table-left {
+  border-top: 2px solid #c8c6c6 !important;
+  border-bottom: 2px solid #c8c6c6 !important;
+  border-right: 2px solid #c8c6c6 !important ;
+}
+
+.border-table-right {
+  border-top: 2px solid #c8c6c6 !important;
+  border-bottom: 2px solid #c8c6c6 !important;
+  border-right: 2px solid #c8c6c6 !important ;
+  border-left: 2px solid #c8c6c6 !important ;
+}
+
+.bg-submenu {
+  background-color: #343a40;
+  color: white;
+}
+
+.hover-menu:hover {
+  color: blue;
+}
+
+/*Servicios*/
+.imagen-servicio img {
+  border: 6px solid #ffffff;
+  -webkit-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.imagen-servicio img:hover {
+  -webkit-transform: scale(1.2) rotate(5deg);
+  -ms-transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg);
+}
+
+.servicio-info {
+  background-color: #ffffff;
+  margin-top: -5rem;
+}
+
+.servicio-info .btn-primary {
+  border-radius: 0;
+  background: linear-gradient(to bottom, #01c993, #343a40);
+  border: none;
+}
+
+.img-size-recomendaciones {
+  width: 340px;
+  height: 220px;
+}
+
+.chat-msj {
+  position: fixed;
+  right: 0;
+  bottom: 80px;
+  z-index: 1031;
+  writing-mode: vertical-lr;
+}
+
+.chat-hidden-1 {
+  color: transparent;
+}
+
+.camuflaje,
+.camuflaje-home {
+  color: transparent;
+}
+
+.iconos {
+  width: 50px;
+}
+
+.whatsapp-icono {
+  color: green;
+}
+
+.whatsapp-icono:hover {
+  color: rgb(11, 61, 11);
+}
+
+.facebook-icono {
+  color: blue;
+}
+
+.facebook-icono:hover {
+  color: rgb(27, 27, 129);
+}
+
+.green {
+  color: green;
+  width: 50px;
+  height: 30px;
+}
+
+.border-precio-especial {
+  border: 2px solid #343a40;
+}
+
+.menu-responsive {
+  display: none;
+}
+
+.text-google {
+  font-size: calc(1.5rem + 1vmin);
+  color:#01c993;
+}
+
+.container-google {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #343a40;
+}
+
+.text-responsive-menu:hover {
+  background-color: blue;
+}
+
+
+
+@media (min-width: 900px) {
+  .img-slider-size {
+    min-width: 1500px;
+    max-height: 700px;
+  }
+
+  .img-video-size {
+    min-width: 1110px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-size-recomendaciones {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .img-size-recomendaciones {
+    max-width: 230px;
+  }  
+
+  .icono-menu{
+    width: 20px;
+  }
+
+  .menu-responsive {
+    top: 0;
+    display: block;
+    position: fixed;    
+    z-index: 999;    
+    text-align: center;
+    left: 0;
+  }
+
+  .menu-pc {
+    display: none;
+  }
+
+  .contenedor {
+    margin-top: 120px;
+  }
+
+  .height-videos {
+    height: 200px;
+  }
+
+  .img-logo {
+    max-width: 100px;
+  }
+
+  .map-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  body {
+    margin: 50px;
+  }
+
+  .title-principal {
+    font-size: 3rem;
+  }
+
+  .title-secondary {
+    font-size: 2rem;
+  }
+
+  .camuflaje-home {    
+    margin-bottom: 100px;
+  }
+
+  .camuflaje {
+    margin-bottom: 100px;
+  }
+
+  .text-contacto {
+    font-size: 14px;
+  }
+
+  .title-secondary-nav {
+    font-size: 15px;
+  }
+
+  .title-principal-nav {
+    font-size: 13px;
+  }
+
+  .home-icon {
+    width: 20px;
+    height: 20px;
+  }  
+
+  .chat-hidden-1 {
+    color: blue;
+  }
+
+  .chat-hidden-0 {
+    color: transparent;
+  }
+  
+}
