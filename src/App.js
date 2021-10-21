@@ -3,6 +3,12 @@ import { HashRouter as Router, Switch, Route, Redirect, Link } from "react-route
 import { Home } from './components/Home';
 import { Destinations } from './components/Destinations';
 import { Comments } from './components/Comments';
+import { Prices } from './components/Prices';
+import { Sedan } from './components/cars/Sedan';
+import { Van } from './components/cars/Van';
+import { Suv } from './components/cars/Suv';
+import { SmallSprinter } from './components/cars/SmallSprinter';
+import { BigSprinter } from './components/cars/BigSprinter';
 import { Contact } from './components/Contact';
 import { Sayulita } from './components/Sayulita';
 import { BocaTomatlan } from './components/BocaTomatlan';
@@ -14,6 +20,7 @@ import { Guadalajara } from './components/Guadalajara';
 import { Tehuamixtle } from './components/Tehuamixtle';
 import { Melaque } from './components/Melaque';
 import { MenuResponsive } from './components/MenuResponsive';
+
 
 
 
@@ -31,8 +38,23 @@ function App() {
           <Route path="/comments" >
             <Comments />
           </Route>
-          <Route path="/sayulita" >
-            <Sayulita />
+          <Route path="/prices" >
+            <Prices />
+          </Route>
+          <Route path="/sedan" >
+            <Sedan />
+          </Route>
+          <Route path="/van" >
+            <Van />
+          </Route>
+          <Route path="/suv" >
+            <Suv />
+          </Route>
+          <Route path="/small-sprinter" >
+            <SmallSprinter />
+          </Route>
+          <Route path="/big-sprinter" >
+            <BigSprinter />
           </Route>     
           <Route path="/boca-tomatlan" >
             <BocaTomatlan />
@@ -101,7 +123,7 @@ function App() {
             
               <li className=" hover-menu ">
                 <a href="https://mx.qualitytransferspv.com/" className="text-uppercase title-principal-nav text-white qtpv ">
-                  <img src="https://img.icons8.com/emoji/50/000000/mexico-emoji.png" />
+                  <img alt="español" src="https://img.icons8.com/emoji/50/000000/mexico-emoji.png" />
                 </a>
               </li>
             
@@ -134,45 +156,15 @@ function App() {
               </Link>
 
 
-
-              
-                <li className=" ">
-                  <div className="btn-group">
-                    <button type="button"
-                      className="btn bg-submenu hover-menu dropdown-toggle text-uppercase title-secondary-nav "
-                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Prices
-                    </button>
-                    <div className="dropdown-menu dropdown-menu-right">
-                      <button className="dropdown-item" type="button">
-                        <a href="#sedan" className="text-black text-uppercase text-center btn btn-block hover-menu ">
-                          sedan
-                        </a>
-                      </button>
-                      <button className="dropdown-item" type="button">
-                        <a href="#van" className="text-black text-uppercase btn btn-block ">
-                          van
-                        </a>
-                      </button>
-                      <button className="dropdown-item" type="button">
-                        <a href="#suv" className="text-black text-uppercase btn btn-block ">
-                          suv
-                        </a>
-                      </button>
-                      <button className="dropdown-item" type="button">
-                        <a href="#small-sprinter" className="text-black text-uppercase btn btn-block ">
-                          small sprinter
-                        </a>
-                      </button>
-                      <button className="dropdown-item" type="button">
-                        <a href="#big-sprinter" className="text-black text-uppercase btn btn-block ">
-                          big sprinter
-                        </a>
-                      </button>
-                    </div>
-                  </div>
+              <Link to="/prices" >
+                <li className="  hover-menu title-secondary-nav ">
+                  <a href="prices" className="text-white nav-link text-uppercase">
+                    <span className="hover-menu ">
+                      prices
+                    </span>
+                  </a>
                 </li>
-              
+              </Link>      
 
 
 
@@ -204,6 +196,8 @@ function App() {
         </nav>
 
         <MenuResponsive/>
+
+        
 
       </div>
     </Router>

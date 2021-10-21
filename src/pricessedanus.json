@@ -1,0 +1,24 @@
+{
+  "pricessedanus":[
+    {
+      "id":1,
+      "destination":"ALAMAR CONDO",
+      "price": 50
+    },
+    {
+      "id":2,
+      "destination":"ALMAR RESORT",
+      "price": 37
+    },
+    {
+      "id":3,
+      "destination":"ALTA VISTA",
+      "price": 37
+    },
+    {
+      "id":4,
+      "destination":"xxxx",
+      "price": 0
+    }
+  ]
+}

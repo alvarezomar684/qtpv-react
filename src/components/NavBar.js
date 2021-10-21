@@ -11,7 +11,7 @@ function Navbar({ open }) {
         </span>
       </Link>
       <a href="https://mx.qualitytransferspv.com/" className="text-uppercase   title-principal-nav text-white qtpv ">
-        <img src="https://img.icons8.com/emoji/50/000000/mexico-emoji.png" />
+        <img alt="español"  src="https://img.icons8.com/emoji/50/000000/mexico-emoji.png" />
       </a>
       <a href="https://api.whatsapp.com/send?phone=+523221236676">
         <svg xmlns="http://www.w3.org/105/svg" fill="currentColor" className="bi bi-whatsapp whatsapp-icono iconos"
@@ -23,6 +23,16 @@ function Navbar({ open }) {
       <Link to="/destinations" >
         <span className="text-uppercase  " >
           destinations
+        </span>
+      </Link>
+      <Link to="/prices" >
+        <span className="text-uppercase  " >
+          prices
+        </span>
+      </Link>
+      <Link to="/comments" >
+        <span className="text-uppercase  " >
+          comments
         </span>
       </Link>
       <Link to="/contact" >

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css';
 import tripadviser from '../Fotos/Logos/tripadvisor.svg'
 import logoCompany from '../Fotos/logo.jpeg'
 export const Contact = () => {
@@ -16,45 +16,46 @@ export const Contact = () => {
 
       <div className="d-flex flex-column flex-lg-row justify-content-between bg-dark">
         <div className="ml-3 mt-3">
-          <h3 style={{fontWeight:"500"}} className="text-uppercase contacto mb-3 ">company</h3>
-          <img src={logoCompany} alt="Logo" className="img-logo"/>
+          <h3 style={{ fontWeight: "500" }} className="text-uppercase contacto mb-3 ">company</h3>
+          <img src={logoCompany} alt="Logo" className="img-logo" />
         </div>
 
         <div className="mt-3">
-          <h3 style={{fontWeight:"500"}} className="text-uppercase contacto">location</h3>
+          <h3 style={{ fontWeight: "500" }} className="text-uppercase contacto">location</h3>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d233.4096992885246!2d-105.2272873!3d20.6062151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454f5c7d76ff%3A0xa779b07b8ac7ccff!2sQualitytransportationpv!5e0!3m2!1ses-419!2smx!4v1631073573427!5m2!1ses-419!2smx"
-            className="map-logo"  style={{widows:"600px", height:"400px", border:"0"}}  allowfullscreen="" loading="lazy"></iframe>
+            className="map-logo" style={{ widows: "600px", height: "400px", border: "0" }} allowFullscreen="" loading="lazy">
+          </iframe>          
         </div>
 
         <div id="info" className="d-flex flex-column justify-content-between mt-3 mr-3">
 
           <div>
-            <h3 style={{fontWeight:"500"}} className="text-uppercase contacto">e-mail</h3>
+            <h3 style={{ fontWeight: "500" }} className="text-uppercase contacto">e-mail</h3>
             <h4 className="d-flex flex-lg-row text-contacto">
               <svg xmlns="http://www.w3.org/105/svg" width="16" height="16" fill="currentColor"
                 className="bi bi-envelope-fill green" viewBox="0 0 16 16">
                 <path
                   d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
               </svg>
-              <span style={{fontWeight:"500"}} className="text-white">info@qualitytransferspv.com</span>
+              <span style={{ fontWeight: "500" }} className="text-white">info@qualitytransferspv.com</span>
             </h4>
           </div>
 
           <div>
-            <h3 style={{fontWeight:"500"}} className="text-uppercase contacto">phone number</h3>
+            <h3 style={{ fontWeight: "500" }} className="text-uppercase contacto">phone number</h3>
             <h4 className="d-flex flex-lg-row text-contacto">
               <svg xmlns="http://www.w3.org/105/svg" width="16" height="16" fill="currentColor"
                 className="bi bi-telephone-fill green" viewBox="0 0 16 16">
                 <path fill-rule="evenodd"
                   d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.360.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.90.37-2.877L1.885.511z" />
               </svg>
-              <span style={{fontWeight:"500"}} className="text-white">322 123 6676</span>
+              <span style={{ fontWeight: "500" }} className="text-white">322 123 6676</span>
             </h4>
           </div>
 
           <div>
-            <h3 style={{fontWeight:"500"}} className="text-uppercase contacto ">social media</h3>
+            <h3 style={{ fontWeight: "500" }} className="text-uppercase contacto ">social media</h3>
             <div className="d-flex flex-lg-row justify-content-between">
               <a href="https://www.facebook.com/qualitytransferspv">
                 <svg xmlns="http://www.w3.org/105/svg" fill="currentColor" className="bi bi-facebook facebook-icono iconos" viewBox="0 0 16 16">
@@ -72,7 +73,7 @@ export const Contact = () => {
 
               <a
                 href="https://www.tripadvisor.ca/Attraction_Review-g150793-d17582509-Reviews-Quality_Transfers_PV-Puerto_Vallarta.html">
-                <img src={tripadviser} className="iconos" alt="tripadvisor"/>
+                <img src={tripadviser} className="iconos" alt="tripadvisor" />
               </a>
 
               <a href="https://www.youtube.com/channel/UCtk1bDdcIDGYgY2ePVrTzNA/featured">

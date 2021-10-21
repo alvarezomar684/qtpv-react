@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css';
 import comentarios01 from '../Fotos/comentarios/06.png'
 import comentarios02 from '../Fotos/comentarios/05.png'
 import comentarios03 from '../Fotos/comentarios/01.png'

@@ -264,6 +264,21 @@ body {
   }
 }
 
+@media (max-width: 620px) {
+  .menu-responsive {
+    top: 0;
+    display: block;
+    position: fixed;    
+    z-index: 999;    
+    text-align: center;
+    left: 0;
+  }
+
+  .menu-pc {
+    display: none;
+  }
+}
+
 @media (max-width: 500px) {
   .img-size-recomendaciones {
     max-width: 300px;
@@ -277,20 +292,7 @@ body {
 
   .icono-menu{
     width: 20px;
-  }
-
-  .menu-responsive {
-    top: 0;
-    display: block;
-    position: fixed;    
-    z-index: 999;    
-    text-align: center;
-    left: 0;
-  }
-
-  .menu-pc {
-    display: none;
-  }
+  } 
 
   .contenedor {
     margin-top: 120px;
